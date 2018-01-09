@@ -33,6 +33,7 @@ func generateIpsum(wordCount, sentenceLength int) string {
 }
 
 func generateSentence(wordCount int) string {
+<<<<<<< HEAD
 	ipsum := ""
 	for i := 0; i < wordCount; i++ {
 		if ipsum != "" {
@@ -41,6 +42,9 @@ func generateSentence(wordCount int) string {
 		ipsum += getWord()
 	}
 	return ipsum + "."
+=======
+
+>>>>>>> 41b0aaa71f904b1262386f81eb52e4d0a14378b3
 }
 
 func getWord() string {
