@@ -14,4 +14,4 @@ In this lab, we'll be using the [os](https://golang.org/pkg/os/) and [bufio](htt
 1. If the error value returned by `os.Open` is not `nil`, call `panic` on the error value
 1. `defer` the [close method](https://golang.org/pkg/os/#File.Close) on the file object immediately after handling the error.  
 *Hint: see [this example from effective go](https://golang.org/doc/effective_go.html#defer)*
-1. pass the *os.File instance into the `generateIpsum` function.
+1. pass the *os.File instance into the `NewWordbank` function.
