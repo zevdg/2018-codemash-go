@@ -17,7 +17,7 @@ func generateIpsum(wordCount, sentenceLength int) string {
 
 }
 
-func generateSentence(wordCount int) {
+func generateSentence(wordCount int) string {
 
 }
 
