@@ -485,8 +485,8 @@ type Doggo struct {
 dog1 := Doggo{}
 dog2 := Doggo{"pitt bull", "Suzy", 2}
 dog3 := Doggo{
-    name: "Thor"
-    age: 1
+    name: "Thor",
+    age: 1,
 }
 dogPtr := &Doggo{}
 ```
@@ -789,8 +789,8 @@ import "fmt"
 var SocialGopher *Gopher
 
 type Gopher struct{}
-func NewGopher() *Gopher { return &Gopher{} }
-func(g *Gopher) Laugh(){ fmt.Println("haha") } 
+func NewGopher() *Gopher
+func(g *Gopher) Laugh()
 
 ```
 
@@ -831,7 +831,7 @@ func main(){
 Don't communicate by sharing memory, share memory by communicating.
 
 ```go
-    var myChan chan int
+var myChan chan int
 ```
 ```go
 c := make(chan string)
