@@ -10,7 +10,7 @@
 [Lab 1: Basic Syntax](labs/01/)  
 [Lab 2: Documentation and Pointers](labs/02/)  
 [Lab 3: Structs, Methods, and Constructors](labs/03/)  
-[Lab 4: IO, defer, panic](labs/04/)  
+[Lab 4: Interfaces, defer, panic](labs/04/)  
 [Lab 5: Error handing continued - DON'T PANIC!](labs/05/)  
 [Lab 6: Concurrency, goroutines, and channels](labs/06/)  
 [Lab 7: Packages](labs/07/)  
